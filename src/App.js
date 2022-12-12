@@ -10,7 +10,7 @@ function App() {
   contacts and appointments 
   */
 
-  const [ contacts, setContact ] = useState([{name: 'mamush', phone: '29212312', email: 'mamush@email.com'}, {name: 'MIKE', phone: '41231321', email: 'MIKE@email.com'}]);
+  const [ contacts, setContact ] = useState([{name: 'COCO', phone: '2222222222', email: 'COCO@email.com'}, {name: 'MIKE', phone: '41231321', email: 'MIKE@email.com'}]);
   const [ appointments, setAppointments ]  = useState([
     {title: 'doctor', contact: contacts[0].name, date: 'april 21', time: '3pm'},
     {title: 'restaurant', contact: contacts[1].name, date: 'april 22', time: '4pm'}
@@ -37,7 +37,8 @@ function App() {
 
   return (
     <>
-      <h1>HELLO MAMUSH!</h1>
+      <h1>Welcome to your Appointment Planner</h1>
+      <p>Create a contact below to add it to the list of contacts</p>
       <nav>
         <NavLink to={ROUTES.CONTACTS} activeClassName="active">
           Contacts
