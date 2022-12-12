@@ -47,7 +47,6 @@ export const AppointmentForm = ({
     // AppointmentForm
     <div>
       <form onSubmit={handleSubmit}>
-        {/* <h1>HI mamush</h1> */}
         <label htmlFor='title'>Name of appointment</label>
         <input id="title" onChange={handleTitle} required/>
 

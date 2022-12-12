@@ -27,7 +27,6 @@ export const ContactForm = ({
   return (
     // ContactForm
     <div>
-      <h1>Hello again</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor='name'>Name</label>
         <input id='name' onChange={handleName} value={name} required/>
